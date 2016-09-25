@@ -6,10 +6,10 @@ The dataset can be downloaded from:
 http://stat-computing.org/dataexpo/2009/the-data.html
 
 Data description:
-1) Flight information:
+1) Flight information (2800_small.csv)
 
-Variable descriptions
 	Name 	Description
+	
 1 	Year 	1987-2008
 2 	Month 	1-12
 3 	DayofMonth 	1-31
@@ -40,15 +40,13 @@ Variable descriptions
 28 	SecurityDelay 	in minutes
 29 	LateAircraftDelay 	in minutes
 
-2) Airport Names
+2) Airport Names (airports.csv)
 airports.csv describes the locations of US airports, with the fields:
 
-    iata: the international airport abbreviation code
-    name of the airport
-    city and country in which airport is located.
-    lat and long: the latitude and longitude of the airport
+iata: the international airport abbreviation code
+name of the airport
+city and country in which airport is located.
+lat and long: the latitude and longitude of the airport
 
-This majority of this data comes from the FAA, but a few extra airports (mainly military bases and US protectorates) were collected from other web sources by Ryan Hafen and Hadley Wickham.
-
-3) Carrier codes
-Listing of carrier codes with full names: carriers.csv
+3) Carrier codes (carriers.csv)
+carriers.csv lists the carrier codes with full names
