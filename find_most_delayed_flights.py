@@ -1,3 +1,7 @@
+'''
+To run the code:
+python find_most_delayed_flights.py 2008_small.csv
+'''
 from mrjob.job import MRJob
 from mrjob.step import MRStep
 
