@@ -7,19 +7,27 @@ http://stat-computing.org/dataexpo/2009/the-data.html
 
 Data description:
 1) Flight information (2800_small.csv)
-
-	Name 	Description
 	
 1 	Year 	1987-2008
+
 2 	Month 	1-12
+
 3 	DayofMonth 	1-31
+
 4 	DayOfWeek 	1 (Monday) - 7 (Sunday)
+
 5 	DepTime 	actual departure time (local, hhmm)
+
 6 	CRSDepTime 	scheduled departure time (local, hhmm)
+
 7 	ArrTime 	actual arrival time (local, hhmm)
+
 8 	CRSArrTime 	scheduled arrival time (local, hhmm)
+
 9 	UniqueCarrier 	unique carrier code
+
 10 	FlightNum 	flight number
+
 11 	TailNum 	plane tail number
 12 	ActualElapsedTime 	in minutes
 13 	CRSElapsedTime 	in minutes
