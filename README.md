@@ -7,6 +7,7 @@ http://stat-computing.org/dataexpo/2009/the-data.html
 
 Data description:
 1) Flight information:
+
 Variable descriptions
 	Name 	Description
 1 	Year 	1987-2008
