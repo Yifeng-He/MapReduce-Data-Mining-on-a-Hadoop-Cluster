@@ -1,7 +1,17 @@
 # MapReduce-data-Mining
 This project aims to find the most delayed flights, airports, or carriers in US.
 
-Dataset:
+# How to run the program on a Amazon EMR Hadoop cluster?
+
+1. add two new Environment Variables to the your computer.
+
+2. enter the folder containing the Python script and the data, run the following command:
+
+$ python find_most_delayed_airports.py -r emr --num-core-instances=4 --name=airports.csv 2008_small.csv
+
+The program (find_most_delayed_airports.py) will be run on Amazon EMR Hadoop cluster of 5 nodes (1 Master node + 4 core nodes). The Hadoop cluster will be automatically terminated after the submitted job is completed.
+
+# Dataset:
 The dataset can be downloaded from:
 http://stat-computing.org/dataexpo/2009/the-data.html
 
