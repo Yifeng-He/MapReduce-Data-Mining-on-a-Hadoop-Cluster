@@ -1,9 +1,13 @@
-# MapReduce-data-Mining
+# MapReduce-Data-Mining-on-a-Hadoop-Cluster
 This project aims to find the most delayed flights, airports, or carriers in US.
 
 # How to run the program on a Amazon EMR Hadoop cluster?
 
-1. add two new Environment Variables to the your computer.
+1. add two new Environment Variables to the your computer:
+AWS_ACCESS_KEY_ID: ****
+AWS_SECRET_ACCESS_KEY: ****
+
+You can create your own Security Credentials in your Amazon AWS account.
 
 2. enter the folder containing the Python script and the data, run the following command:
 
